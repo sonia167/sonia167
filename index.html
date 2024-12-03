@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del ahorcado(frutas)</h1>
+        <p>Introduzca una letra:</p>
+        <div class="input-container">
+            <input type="text" maxlength="1" id="letra"> 
+            <button id="calcular">Evaluar</button>
+        </div>
+        <p id="output"></p>
+        <div id="ahorcado"></div>
+        <div id="perdedor">
+            <p>¡Perdiste!</p>
+            <button id="reiniciar-perdedor">Jugar otra vez</button>
+        </div>
+        
+        <div id="ganador">
+            <p>¡Victoria!</p>
+            <button id="reiniciar">Jugar otra vez</button>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
